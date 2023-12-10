@@ -875,19 +875,15 @@ a:focus {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background-color: #EFECE9;
+  background-color: #54aea4;
 }
 
 .footer_section p {
-  color: #171717;
+  color: white;
   margin: 0;
   padding: 25px 0 20px 0;
   margin: 0 auto;
   text-align: center;
-}
-
-.footer_section a {
-  color: #171717;
 }
 
 /* end footer section*/
