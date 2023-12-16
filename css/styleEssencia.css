@@ -44,8 +44,8 @@ body {
   /*header section*/
   .hero_area {
     height: calc(100vh - 30px);
-    background: -webkit-gradient(linear, left top, right top, color-stop(55%, #1a2e35), color-stop(55%, #1cbbb4));
-    background: linear-gradient(to right, #1a2e35 55%, #1a2e35 55%);
+    background: -webkit-gradient(linear, left top, right top, color-stop(55%, #587f6c), color-stop(55%, #bfdf8a));
+    background: linear-gradient(to bottom, #587f6c 55%, #bfdf8a 55%);
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -199,115 +199,24 @@ body {
 
   
   /*end header section*/
-  /* slider section */
-  .slider_section {
-    -webkit-box-flex: 1;
-        -ms-flex: 1;
-            flex: 1;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-    position: relative;
-  }
-  
-  .slider_section .row {
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
-  
-  .slider_section .row > div {
-    position: unset;
-  }
-  
-  .slider_section .detail-box h1 {
-    color: #ffffff;
-    font-weight: bold;
-    text-transform: uppercase;
-  }
-  
-  .slider_section .detail-box p {
-    color: #ffffff;
-    margin-top: 15px;
-  }
-  
-  .slider_section .detail-box .btn-box {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    margin: 45px -5px 0 -5px;
-  }
-  
-  .slider_section .detail-box .btn-box a {
-    text-align: center;
-    width: 165px;
-    font-size: 15px;
-    margin: 5px;
-  }
-  
-  .slider_section .detail-box .btn-box .btn-1 {
-    display: inline-block;
-    padding: 10px 0;
-    background-color: #ff4f5a;
-    color: #ffffff;
-    -webkit-transition: all 0.3s;
-    transition: all 0.3s;
-    border: 1px solid transparent;
-    border-radius: 0;
-  }
-  
-  .slider_section .detail-box .btn-box .btn-1:hover {
-    background-color: transparent;
-    border-color: #ff4f5a;
-    color: #ff4f5a;
-  }
-  
-  .slider_section .detail-box .btn-box .btn-2 {
-    display: inline-block;
-    padding: 10px 0;
-    background-color: #ffffff;
-    color: #252525;
-    -webkit-transition: all 0.3s;
-    transition: all 0.3s;
-    border: 1px solid transparent;
-    border-radius: 0;
-  }
-  
-  .slider_section .detail-box .btn-box .btn-2:hover {
-    background-color: transparent;
-    border-color: #ffffff;
-    color: #ffffff;
-  }
-  
-  .slider_section .img-container .img-box img {
-    width: 100%;
-  }
-  
-  .slider_section #carouselExampleIndicators {
-    position: unset;
-    width: 100%;
-  }
-  
-  .slider_section .carousel_btn-container {
-    width: 120px;
-    position: absolute;
-    bottom: 0;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-    left: 8.5%;
-    z-index: 999;
-    -webkit-transform: translateY(50%);
-            transform: translateY(50%);
-  }
+
+    /* CSS PARA ENDOMARKETING*/
+    .experience_section .img-box img {
+      width: 100%;
+    }
+
+    .til-list {
+      text-align: center;
+      color: #bfdf8a;
+    }
+
+    .detail-box .list-group .item {
+      color: #ffffff;
+      padding: 7px;
+    }
+
+    /* FIM CSS PARA ENDOMARKETING*/
+
     /* CSS PARA CARROSEL DE MERCADO, SEGMENTOS E NICHO */
 
     .NossaEmpresa {
@@ -316,13 +225,32 @@ body {
         font-family: Arial, Helvetica, sans-serif;
         color: white;
         font-weight: bold;
+        font-size: 35px;
     }
+
+    .card {
+      display:inline-flex; 
+      width: 14rem;
+      background-color: transparent; 
+      border: none;
+      align-items: center;
+      justify-content: center;
+    }
+    
     .card .card-body .title {
-      color: #ffffff;
+      color: #587f6c;
+      text-align: center;
     }
 
     .list-group .list-item {
-      color: #bfdf8a;
+      color: #587f6c;
+      position: relative;
+      left: 40px;
+    }
+
+    .body-car {
+      width: 300px;
+      height: 100%;
     }
 
     .list-group-item {
@@ -332,245 +260,30 @@ body {
     
     /* FIM CSS PARA CARROSEL DE MODA, SEGMENTOS E NICHO */
     
-    /* CSS PARA ANALISE SWOT */
+    /* CSS PARA MISSÃO, VISÃO E VALORES */
     .card-body .card-title {
         text-align: center;
-        color: #80b273;
+        color: #587f6c;
         font-family: Georgia, 'Times New Roman', Times, serif;
         font-size: 23px;
     }
     
     .list-group-item {
-        color: white;
+        color: #587f6c;
     }
     
-    .card-deck .yellom {
-        background-color: #bfdf8a;
+    .card .card-body {
+      background-color: #bfdf8a;
     }
 
-    .yellom .card-body .list-group-item{
-        background-color: #bfdf8a;
+    .list-group .list-group-item {
+      background-color: #bfdf8a;
     }
-
-    .card-deck .blue {
-        background-color: #bfdf8a;
-    }
-
-    .blue .card-body .list-group-item {
-        background-color: #bfdf8a;
-    }
-
-    
-    /* FIM CSS PARA ANALISE SWOT */
-  .slider_section .carousel_btn-container .carousel-control-prev,
-  .slider_section .carousel_btn-container .carousel-control-next {
-    position: relative;
-    width: 55px;
-    height: 55px;
-    border: none;
-    border-radius: 100%;
-    opacity: 1;
-    background-repeat: no-repeat;
-    background-size: 14px;
-    background-position: center;
-    background-color: #1cbbb4;
-    margin: 2px;
-  }
-  
-  .slider_section .carousel_btn-container .carousel-control-prev:hover,
-  .slider_section .carousel_btn-container .carousel-control-next:hover {
-    background-color: #ff4f5a;
-  }
-  
-  .slider_section .carousel_btn-container .carousel-control-prev {
-    background-image: url(../images/prev.png);
-  }
-  
-  .slider_section .carousel_btn-container .carousel-control-next {
-    background-image: url(../images/next.png);
-  }
-  
-  .slider_section ol.carousel-indicators {
-    margin: 0;
-    width: 75px;
-    bottom: 45px;
-    left: initial;
-    right: 25px;
-  }
-  
-  .slider_section ol.carousel-indicators li {
-    border-radius: 100%;
-    text-indent: 0px;
-    text-align: center;
-    line-height: 55px;
-    color: #ffffff;
-    background-color: transparent;
-    opacity: 1;
-    display: none;
-  }
-  
-  .slider_section ol.carousel-indicators li.active {
-    display: block;
-  }
-
-  /* CSS PARA SEGMENTAÇÃO */
-
-  .card {
-    display:inline-flex; 
-    width: 14rem;
-    background-color: transparent; 
-    border: none;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .card h1 {
-    border:1px solid #faca2f;
-    border-radius: 50%; 
-    background-color: #faca2f;
-    color: white;
-    width: 100px; 
-    padding: 30px; 
-    text-align: center;
-    font-size: 25px;
-  }
-
-  .card-body h5 {
-    color: #0c0c0c;
-    font-size: 18px;
-    font-weight: bold;
-  }
-
-  .card-body p {
-    color: white;
-    text-align: center;
-  }
-
-  /* FIM CSS PARA SEGMENTAÇÃO */
-  
-  .experience_section .row {
-    -webkit-box-align: center;
-        -ms-flex-align: center;
-            align-items: center;
-  }
-  
-  .experience_section .detail-box p {
-    margin-top: 20px;
-  }
-  
-  .experience_section .detail-box .btn-box {
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -ms-flex-wrap: wrap;
-        flex-wrap: wrap;
-    margin: 45px -5px 0 -5px;
-  }
-  
-  .experience_section .detail-box .btn-box a {
-    text-align: center;
-    width: 100px;
-    font-size: 29px;
-    margin: 5px;
-  }
-  
-  .experience_section .detail-box .btn-box .btn-1 {
-    display: inline-block;
-    padding: 30px;
-    background-color: #ff4f5a;
-    color: #ffffff;
-    -webkit-transition: all 0.3s;
-    transition: all 0.3s;
-    border: 1px solid transparent;
-    border-radius: 150px;
-  }
-  
-  .experience_section .detail-box .btn-box .btn-1:hover {
-    background-color: transparent;
-    border-color: #ff4f5a;
-    color: #ff4f5a;
-  }
-  
-  .experience_section .detail-box .btn-box .btn-2 {
-    display: inline-block;
-    padding: 10px 0;
-    background-color: #1a2e35;
-    color: #ffffff;
-    -webkit-transition: all 0.3s;
-    transition: all 0.3s;
-    border: 1px solid transparent;
-    border-radius: 0;
-  }
-  
-  .experience_section .detail-box .btn-box .btn-2:hover {
-    background-color: transparent;
-    border-color: #1a2e35;
-    color: #1a2e35;
-  }
-  
-  .experience_section .img-box img {
-    width: 100%;
-  }
-  
-  .client_section .heading_container {
-    -webkit-box-pack: center;
-        -ms-flex-pack: center;
-            justify-content: center;
-    margin-bottom: 25px;
-  }
-  
-  .client_section .detail-box {
-    text-align: center;
-    margin: 25px 35px;
-    padding: 45px 65px 35px 65px;
-    background-color: #4b8eab;
-    -webkit-box-shadow: 0px 0px 20px 0 rgba(0, 0, 0, 0.2);
-            box-shadow: 0px 0px 20px 0 rgba(0, 0, 0, 0.2);
-  
-    
-  }
-  
-  .client_section .detail-box h4 {
-    font-weight: bold;
-    color: white;
-  }
-  
-  .client_section .detail-box p {
-    margin-top: 15px;
-    margin-bottom: 25px;
-    color: white;
-    font-family: 'Courier New', Courier, monospace;
-  }
-  
-  .client_section .carousel-control-prev,
-  .client_section .carousel-control-next {
-    top: 50%;
-    width: 65px;
-    height: 65px;
-    border: none;
-    border-radius: 100%;
-    opacity: 1;
-    background-repeat: no-repeat;
-    background-size: 10px;
-    background-position: center;
-    background-color:  #faca2f;
-    margin: 2px;
-    -webkit-transform: translateY(-50%);
-            transform: translateY(-50%);
-  }
-  
-  .client_section .carousel-control-prev {
-    background-image: url(../images/prev-angle.png);
-  }
-  
-  .client_section .carousel-control-next {
-    background-image: url(../images/next-angle.png);
-  }
+    /* FIM CSS PARA MISSÃO, VISÃO E VALORES */
   
   /* info section */
   .info_section {
     position: relative;
-    
     color: #ffffff;
   }
   
@@ -659,33 +372,6 @@ body {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
-  }
-  
-  .info_section .info_form form input {
-    outline: none;
-    width: 100%;
-    padding: 7px 10px;
-  }
-  
-  .info_section .info_form form button {
-    display: inline-block;
-    padding: 8px 40px;
-    background-color: #ff4f5a;
-    color: #ffffff;
-    -webkit-transition: all 0.3s;
-    transition: all 0.3s;
-    border: 1px solid transparent;
-    border-radius: 0;
-    border: 1.5px solid #ffffff;
-    margin-top: 15px;
-    text-transform: uppercase;
-    font-size: 15px;
-  }
-  
-  .info_section .info_form form button:hover {
-    background-color: transparent;
-    border-color: #ff4f5a;
-    color: #ff4f5a;
   }
   
   .info_section .info_contact .link-box {
@@ -805,4 +491,3 @@ body {
     -webkit-transform: rotate(-45deg) translate(8px, -8px);
             transform: rotate(-45deg) translate(8px, -8px);
   }
-  /*# sourceMappingURL=style.css.map */
